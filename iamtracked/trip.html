@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <style>
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+    #map {
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+<!-- <div id='steps'></div><input type='text' id='tripid' placeholder='id'><button onclick="loadTrip()">load trip</button><br/>-->
+    <div id="map"></div>
+
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="https://cdn.firebase.com/js/client/1.0.15/firebase.js"></script>
+    <script>
+    var map = L.map('map').setView([-22.889902, -47.064438], 12);
+    // add an OpenStreetMap tile layer
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var tripRef, locationPolling;
+
+    function loadTrip(tripid) {
+        tripid = tripid || document.getElementById('tripid').value;
+        tripRef = new Firebase('https://sweltering-inferno-7832.firebaseio.com/' + tripid + '/');
+
+        // Retrieve new steps as they are added to Firebase
+        tripRef.on('child_added', function(snapshot) {
+            var step = snapshot.val();
+
+            //document.getElementById('steps').innerHTML += JSON.stringify(step) + '<br/>';
+
+            var marker = L.marker([step.latitude, step.longitude]).addTo(map);
+
+        });
+
+    }
+
+    if (location.hash) {
+        loadTrip(location.hash.replace('#', ''));
+    }
+    </script>
+</body>
+
+</html>

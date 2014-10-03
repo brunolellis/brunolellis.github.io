@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+    <title>I am tracked</title>
+</head>
+
+<body>
+    <input type='text' id='tripid' placeholder='id'>
+    <button onclick="createTrip()">Criar</button> <a id="sharelink" href="trip.html" target="_blank">share</a>
+    <br/>
+    <script>
+    var tripRef, locationPolling;
+
+    function createTrip() {
+        var tripid = document.getElementById('tripid').value;
+        tripRef = new Firebase('https://sweltering-inferno-7832.firebaseio.com/' + tripid + '/');
+
+        getLocation();
+        wakeUp();
+
+        document.getElementById('sharelink').href += '#' + tripid;
+
+        locationPolling = setInterval(function() {
+            console.log("getting location");
+            getLocation();
+
+        }, 10000);
+
+    }
+
+    function getLocation() {
+        navigator.geolocation.getCurrentPosition(setPosition);
+    }
+
+    function setPosition(position) {
+
+        tripRef.push({
+            timestamp: new Date().getTime(),
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+            speed: position.coords.speed
+        });
+
+    };
+
+    var stayAwake;
+
+    function wakeUp() {
+        sleep();
+
+        stayAwake = setInterval(function() {
+            console.log("stay awake!");
+            location.href = location.href; //try refreshing
+
+            window.setTimeout(function() {
+                window.stop();
+                console.log("stopped");
+            }, 0); //stop it soon after
+
+        }, 10000);
+
+    }
+
+    function sleep() {
+        if (stayAwake) {
+            clearInterval(stayAwake);
+
+        }
+    }
+
+    </script>
+</body>
+
+</html>
