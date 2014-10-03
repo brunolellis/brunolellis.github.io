@@ -23,7 +23,6 @@
         document.getElementById('sharelink').href += '#' + tripid;
 
         locationPolling = setInterval(function() {
-            console.log("getting location");
             getLocation();
 
         }, 10000);
@@ -51,14 +50,8 @@
         sleep();
 
         stayAwake = setInterval(function() {
-            console.log("stay awake!");
-            location.href = location.href; //try refreshing
-
-            window.setTimeout(function() {
-                window.stop();
-                console.log("stopped");
-            }, 0); //stop it soon after
-
+            location.href = location.href;
+            window.setTimeout(window.stop, 0);
         }, 10000);
 
     }
