@@ -42,7 +42,9 @@
             //document.getElementById('steps').innerHTML += JSON.stringify(step) + '<br/>';
 
             var marker = L.marker([step.latitude, step.longitude]).addTo(map);
-            marker.bindPopup((step.speed * 3.6).toFixed(2) + ' km/h');
+
+            var speed = step.speed ? (step.speed * 3.6).toFixed(2) : 0;
+            marker.bindPopup(speed + ' km/h');
 
         });
 
