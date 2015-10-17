@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Annotated Spring</title>
+    <link>http://localhost:8080</link>
+    <description>Spring Screencasts</description>
+    <pubDate>Sat, 17 Oct 2015 19:59:11 GMT</pubDate>
+    <item>
+      <title>Spring Boot Web Application QuickStart</title>
+      <link>http://localhost:8080/episodes/5</link>
+      <description>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/1313123?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</description>
+      <content:encoded>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</content:encoded>
+      <guid>http://localhost:8080/episodes/5</guid>
+    </item>
+    <item>
+      <title>Spring Boot Web Application QuickStart</title>
+      <link>http://localhost:8080/episodes/4</link>
+      <description>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/1313123?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</description>
+      <content:encoded>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</content:encoded>
+      <guid>http://localhost:8080/episodes/4</guid>
+    </item>
+    <item>
+      <title>Spring Boot Web Application QuickStart</title>
+      <link>http://localhost:8080/episodes/3</link>
+      <description>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/1313123?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</description>
+      <content:encoded>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</content:encoded>
+      <guid>http://localhost:8080/episodes/3</guid>
+    </item>
+    <item>
+      <title>Spring Boot Web Application QuickStart</title>
+      <link>http://localhost:8080/episodes/2</link>
+      <description>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/1313123?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</description>
+      <content:encoded>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</content:encoded>
+      <guid>http://localhost:8080/episodes/2</guid>
+    </item>
+    <item>
+      <title>Spring Boot QuickStart</title>
+      <link>http://localhost:8080/episodes/1</link>
+      <description>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/1313123?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</description>
+      <content:encoded>&lt;![CDATA[&lt;iframe src="https://www.youtube.com/embed/7cOVaxlxA5k?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;]]&gt;</content:encoded>
+      <guid>http://localhost:8080/episodes/1</guid>
+    </item>
+  </channel>
+</rss>
