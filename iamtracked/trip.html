@@ -43,6 +43,9 @@
 
             var marker = L.marker([step.latitude, step.longitude]).addTo(map);
 
+            var speed = step.speed ? (step.speed * 3.6).toFixed(2) : 0;
+            marker.bindPopup(speed + ' km/h');
+
         });
 
     }
