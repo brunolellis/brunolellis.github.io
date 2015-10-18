@@ -4,40 +4,40 @@
     <title>Annotated Spring</title>
     <link>http://localhost:8080</link>
     <description>Spring Screencasts</description>
-    <pubDate>Sun, 18 Oct 2015 03:04:02 GMT</pubDate>
+    <pubDate>Sun, 18 Oct 2015 03:09:53 GMT</pubDate>
     <item>
       <title>Spring Boot Web Application QuickStart</title>
       <link>http://localhost:8080/episodes/5</link>
       <description>Boot Web Application using the Spring</description>
-      <content:encoded>&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
+      <content:encoded>&lt;p&gt;Boot Web Application using the Spring&lt;/p&gt;&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
       <guid>http://localhost:8080/episodes/5</guid>
     </item>
     <item>
       <title>Spring Boot Web Application QuickStart</title>
       <link>http://localhost:8080/episodes/4</link>
       <description>Using the Spring Boot CLI</description>
-      <content:encoded>&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
+      <content:encoded>&lt;p&gt;Using the Spring Boot CLI&lt;/p&gt;&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
       <guid>http://localhost:8080/episodes/4</guid>
     </item>
     <item>
       <title>Spring Boot Web Application QuickStart</title>
       <link>http://localhost:8080/episodes/3</link>
       <description>Starting a Spring Boot</description>
-      <content:encoded>&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
+      <content:encoded>&lt;p&gt;Starting a Spring Boot &lt;/p&gt;&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
       <guid>http://localhost:8080/episodes/3</guid>
     </item>
     <item>
       <title>Spring Boot Web Application QuickStart</title>
       <link>http://localhost:8080/episodes/2</link>
       <description>Starting a Spring Boot Web Application using the Spring Boot CLI</description>
-      <content:encoded>&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
+      <content:encoded>&lt;p&gt;Starting a Spring Boot Web Application using the Spring Boot CLI&lt;/p&gt;&lt;iframe src="https://www.youtube.com/embed/fsVGFtpNW8g?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
       <guid>http://localhost:8080/episodes/2</guid>
     </item>
     <item>
       <title>Spring Boot QuickStart</title>
       <link>http://localhost:8080/episodes/1</link>
       <description>Starting a Spring Boot project using the Spring Boot CLI</description>
-      <content:encoded>&lt;iframe src="https://www.youtube.com/embed/7cOVaxlxA5k?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
+      <content:encoded>&lt;p&gt;Starting a Spring Boot project using the Spring Boot CLI&lt;/p&gt;&lt;iframe src="https://www.youtube.com/embed/7cOVaxlxA5k?vq=hd720" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content:encoded>
       <guid>http://localhost:8080/episodes/1</guid>
     </item>
   </channel>
